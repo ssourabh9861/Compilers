@@ -1,0 +1,1 @@
+import java.util.*; class WordUtil{ public static void main(String[] args){ Scanner input=new Scanner(System.in); System.out.println("Enter Word: "); String word = input.next(); char ch=word.charAt(0); String newWord=word+Character.toString(ch); System.out.println(newWord); } }
